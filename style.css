@@ -1,0 +1,81 @@
+.navbar {
+    background-color: rgba(178, 52, 39, 1);
+    height: 50px;
+}
+
+.card {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+}
+
+.img-thumbnail {
+    border: solid #e1e1e1 1px;
+}
+
+#regGateway {
+    background-color: rgba(66, 85, 99, 1);
+}
+
+#regGatewayTitle {
+    color: white;
+}
+
+#ContactButton {
+    color: white;
+    background-color: rgba(66, 85, 99, 1);
+    border: 0;
+}
+
+.collapse {
+    opacity: 0.5 ;
+  }
+
+.lightText {
+    font-weight: 200;
+}
+
+.card-subtitle {
+    font-style: italic;
+}
+
+.QuoteSource {
+    font-weight: 200;
+}
+
+#Name1 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #Name1 p.collapse:not(.show) {
+      height: 75px !important;
+      overflow: hidden;
+    
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;  
+  }
+  
+  #Name1 p.collapsing {
+      min-height: 42px !important;
+      opacity: 1;
+  }
+  
+  #Name1 a.collapsed:after  {
+      content: '+ Read More';
+  }
+  
+  #Name1 a:not(.collapsed):after {
+      content: '- Read Less';
+  }
+  
+  
